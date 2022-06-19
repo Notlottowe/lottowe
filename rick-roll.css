@@ -1,0 +1,159 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url('./Background-image/Background-image.jpg');
+ background-size:cover
+
+}
+
+
+.air-border{
+  color:	rgb(44, 47, 51);
+  height: 304px;
+  background-color: 	rgb(44, 47, 51);
+  border:10px solid 	rgb(44, 47, 51);
+  border-radius:4px;
+    width:460px;
+    position:fixed;
+    top:50%;
+    left:48.1%;
+    transform: translate(-50%,-50%);
+    font-family:Roboto;
+    letter-spacing: 1px;
+    font-weight:bold;
+
+}
+.profile-block{
+    display:flex;
+    justify-content: center;
+  
+}
+.discord-logo{
+ margin-top:60px;
+ width:35px;
+ margin-left:45px;
+ display:flex;
+
+}
+.name-text{
+    color:white;    
+    font-size:30px;
+    font-weight:bold;
+    margin-top:1px;
+    letter-spacing:0.1px;
+    font-family:Roboto;
+    max-height:68px;
+    position:absolute;
+    top:50.3%;
+    left:48.6%;
+    transform: translate(-50%,-50%);
+    border-radius:18px;
+    letter-spacing: 1px;
+}
+.top-text
+{
+    color:rgb(166, 169, 173);    
+    font-size:15px;
+    margin-top:1px;
+    letter-spacing:0.1px;
+    font-family:Roboto;
+    max-height:68px;
+    position:absolute;
+    top:46%;
+    left:48.2%;
+    transform: translate(-50%,-50%);
+    border-radius:18px;
+  }
+  .icon{
+    max-width:15px;
+    margin-right:0px;
+    margin-top:3px;
+    max-height:68px;
+    position:absolute;
+    top:50.3%;
+    left:44.2%;
+    transform: translate(-50%,-50%);
+    border-radius:18px;
+    letter-spacing: 1px;
+  }
+
+.profile-picture{
+    max-height:68px;
+    position:absolute;
+    top:37%;
+    left:48.2%;
+    transform: translate(-50%,-50%);
+    border-radius:18px;  
+  }
+  .o-dot{
+    font-size:15px;
+    color:rgb(166, 169, 173);     
+    max-height:px;
+    position:absolute;
+    top:54.8%;
+    left:43.6%;
+    transform: translate(-50%,-50%);
+    border-radius:18px;
+    letter-spacing: 0.3px;
+    font-family:Roboto;
+  }
+  .green-dot{
+    height:11px;
+    width:10px;
+    position:absolute;
+    top:54.8%;
+    left:39.9%;
+    transform: translate(-50%,-50%);
+    border-radius:18px; 
+  }
+ .offline-dot{
+  font-size:15px;
+    color:rgb(166, 169, 173);     
+    position:absolute;
+    top:54.8%;
+    left:52.8%;
+    transform: translate(-50%,-50%);
+    border-radius:18px;
+    letter-spacing: 0.3px;
+    font-family:Roboto;
+ }
+ .gray-dot{
+  color:rgb(166, 169, 173);     
+  height:10.8px;
+  width:11px;
+  position:absolute;
+  top:54.8%;
+  left:0%;
+  transform: translate(-50%,-50%);
+  border-radius:100px;
+  padding-right:20px;
+}
+.invite{
+  font-family:Roboto;
+  color:white;
+  background-color:rgb(88, 101, 242);
+  border:none;
+  font-size:15px;
+  letter-spacing:0.1px;
+  padding-top:13px;
+  padding-bottom:13px;
+  padding-left:165px;
+  padding-right:165px;
+  border-radius:4px;
+  transition: 0.15s;
+  cursor:pointer;
+}
+.invite:hover{
+  background-color:rgb(67, 70, 161);
+}
+.button{
+  max-height:68px;
+  position:absolute;
+  top:64.3%;
+  left:48.2%;
+  transform: translate(-50%,-50%);
+}
+.icon:hover::after{
+  content: attr(data-tooltip);
+}
+ 
